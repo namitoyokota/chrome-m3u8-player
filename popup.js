@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const nameParam = name ? `&name=${encodeURIComponent(name)}` : "";
       
       const a = document.createElement("a");
-      a.href = `https://m3u8.namitoyokota.com/player#${encodeURIComponent(response.link)}${nameParam}`;
+      a.href = `https://m3u8.namitoyokota.com?url=${encodeURIComponent(response.link)}${nameParam}`;
       a.textContent = "Video found! Click to open in a new tab.";
       a.target = "_blank";
 
