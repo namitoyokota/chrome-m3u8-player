@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "m3u8 player",
+  "name": "M3U8 Player",
   "version": "1.0",
   "description": "Detects .m3u8 streams and plays them in a distraction & ad free player.",
   "permissions": ["webRequest", "tabs", "scripting"],
